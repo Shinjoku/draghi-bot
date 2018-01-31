@@ -5,7 +5,7 @@ function gif(message, words) {
 
     let msg = 'Look ahst thdro\n';
 
-    let math = require('./math.js');
+    let math = require('../math.js');
     let giphy = require('giphy-api')();
 
 

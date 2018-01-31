@@ -1,0 +1,23 @@
+{
+  "name": "draghi",
+  "version": "1.0.0",
+  "description": "Draghi bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "José Carlos C. N.",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "giphy-api": "^1.2.7",
+    "jsdom": "^11.6.1",
+    "phantomjs": "^2.1.7",
+    "request": "^2.83.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}

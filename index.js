@@ -1,7 +1,6 @@
 // Discord Bot
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token =  process.env.BOT_TOKEN;
 
 // Local
 const commands = require('./commands.js');
@@ -44,4 +43,4 @@ bot.on('message', async message => {
 
 });
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);

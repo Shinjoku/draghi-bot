@@ -34,8 +34,10 @@ bot.on('message', async message => {
         commands.translate(params[1], params.slice(2).join(' '));
     else if (op === '!gimme')
         commands.gimme(message, words);
+    else if (op === '!wf')
+        commands.warframe(message, words);
     else
-        message.channel.send(`O comando ${op} nem existe, seu troxa!`);
+        message.channel.send(`O comando ${op} nem existe, seu batata!`);
 
 
     // Debug
